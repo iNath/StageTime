@@ -152,6 +152,8 @@ class CompanyService {
             result = [success: true, company: company]
         }
         return result
+    }
+
     static Company getCompany(long id) {
         return Company.get(id)
     }

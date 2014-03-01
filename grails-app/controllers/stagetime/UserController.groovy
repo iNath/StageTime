@@ -1,5 +1,7 @@
 package stagetime
 
+import stagetime.security.SessionService
+
 class UserController {
 
     static scope = "prototype"
